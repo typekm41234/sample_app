@@ -1,0 +1,9 @@
+require "value"
+
+tabao = Enterprise.new("taobao")
+
+taobao.fund_base = 50000
+taobao.interest_rate = 0.1
+taobao.last_year = 20
+
+puts taobao.value?
