@@ -1,0 +1,10 @@
+class CreateRalationships < ActiveRecord::Migration
+  def change
+    create_table :ralationships do |t|
+      t.follower_id :string
+      t.followed_id :string
+
+      t.timestamps
+    end
+  end
+end
